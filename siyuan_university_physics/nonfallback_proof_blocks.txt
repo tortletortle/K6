@@ -1,0 +1,34 @@
+NON-FALLBACK PROOF BLOCKS (already specific):
+
+01_kinematics.md	§1-1 质点运动的描述	- 由定义：\(\vec v\equiv d\vec r/dt\)。这不是“推出来”的结论，而是速度的数学定义。
+01_kinematics.md	§1-2 加速度为恒矢量时的质点运动	- 从 \(\vec a=d\vec v/dt\) 且 \(\vec a\) 常量出发，时间积分得 \(\vec v=\vec v_0+\vec a t\)。
+01_kinematics.md	§1-3 圆周运动	- 速度方向变化导致向心加速度。用极坐标基矢导数：\(\dot{\hat e}_r=\dot\theta\hat e_\theta\)、\(\dot{\hat e}_\theta=-\dot\theta\hat e_r\)。
+04_rigid_body_rotation.md	§4-1 刚体的定轴转动	- 速度方向变化导致向心加速度。用极坐标基矢导数：\(\dot{\hat e}_r=\dot\theta\hat e_\theta\)、\(\dot{\hat e}_\theta=-\dot\theta\hat e_r\)。
+06_thermodynamics.md	§6-5 理想气体的等温过程和绝热过程	- 洛伦兹变换：\(x'=\gamma(x-vt)\)、\(t'=\gamma(t-vx/c^2)\)，\(\gamma=1/\sqrt{1-\beta^2}\)。
+08_electrostatics.md	§8-8 电场强度与电势梯度	- 静电场满足 \(\oint\vec E\cdot d\vec l=0\)，因此沿不同路径积分得到的做功相同，电势差与路径无关。
+09_conductors_dielectrics.md	§9-4 电位移 有电介质时的高斯定理	- 对点电荷，球面对称使 \(\vec E\) 在球面上大小恒定、方向径向。
+10_steady_current.md	§10-1 电流 电流密度	- 电流定义为单位时间通过截面的电荷量：\(I\equiv dq/dt\)。
+10_steady_current.md	§10-2 电阻率 欧姆定律的微分形式	- 微观欧姆定律写成 \(\vec J=\sigma\vec E\)，来自载流子在电场中达到稳态漂移（加速与散射平衡）。
+10_steady_current.md	§10-6 电容器的充放电	- 充电：KVL 写 \(\mathcal{E}=IR+Q/C\)，用 \(I=dQ/dt\) 得一阶方程 \(R\,dQ/dt+Q/C=\mathcal{E}\)。
+11_magnetostatics.md	§11-4 安培环路定理	- 安培环路定理：\(\oint\vec B\cdot d\vec l=\mu_0 I_{enc}\)。
+12_magnetic_materials.md	§12-2 磁介质中的安培环路定理 磁场强度	- 安培环路定理：\(\oint\vec B\cdot d\vec l=\mu_0 I_{enc}\)。
+13_em_induction_em_field.md	§13-1 电磁感应定律	- 法拉第定律：\(\mathcal{E}=\oint\vec E\cdot d\vec l=-d\Phi_B/dt\)。
+13_em_induction_em_field.md	§13-5 磁场的能量 磁场能量密度	- 安培环路定理：\(\oint\vec B\cdot d\vec l=\mu_0 I_{enc}\)。
+13_em_induction_em_field.md	§13-6 位移电流 电磁场基本方程的积分形式	- 电流定义为单位时间通过截面的电荷量：\(I\equiv dq/dt\)。
+14_mechanical_oscillation.md	§14-1 简谐运动	- 由胡克定律 \(F=-kx\) 与牛顿第二定律 \(m\ddot x=F\) 得 \(\ddot x+\omega^2x=0\)，\(\omega=\sqrt{k/m}\)。
+16_em_oscillation_waves.md	§16-1 电磁振荡	- LC 回路 KVL：\(L\,dI/dt+Q/C=0\)，且 \(I=dQ/dt\)。
+16_em_oscillation_waves.md	§16-2 电磁波	- 对点电荷，球面对称使 \(\vec E\) 在球面上大小恒定、方向径向。
+17_wave_optics.md	§17-1 相关光	- 洛伦兹变换：\(x'=\gamma(x-vt)\)、\(t'=\gamma(t-vx/c^2)\)，\(\gamma=1/\sqrt{1-\beta^2}\)。
+17_wave_optics.md	§17-2 杨氏双缝干涉实验 双镜 劳埃德镜	- 两缝到屏上点 \(x\) 的光程差 \(\Delta\approx d\sin\theta\approx d x/L\)。
+17_wave_optics.md	§17-7 单缝衍射	- 单缝远场把缝看作连续二次波源。不同位置到观察点的相位线性变化。
+17_wave_optics.md	§17-9 衍射光栅	- 两缝到屏上点 \(x\) 的光程差 \(\Delta\approx d\sin\theta\approx d x/L\)。
+17_wave_optics.md	§17-10 X射线的衍射	- 两缝到屏上点 \(x\) 的光程差 \(\Delta\approx d\sin\theta\approx d x/L\)。
+17_wave_optics.md	§17-17 非线性光学现象	- 对点电荷，球面对称使 \(\vec E\) 在球面上大小恒定、方向径向。
+18_relativity.md	§18-3 狭义相对论的基本原理 洛伦兹变换式	- 洛伦兹变换：\(x'=\gamma(x-vt)\)、\(t'=\gamma(t-vx/c^2)\)，\(\gamma=1/\sqrt{1-\beta^2}\)。
+18_relativity.md	§18-4 狭义相对论的时空观	- 从 \(\vec a=d\vec v/dt\) 且 \(\vec a\) 常量出发，时间积分得 \(\vec v=\vec v_0+\vec a t\)。
+18_relativity.md	§18-5 光的多普勒效应	- 洛伦兹变换：\(x'=\gamma(x-vt)\)、\(t'=\gamma(t-vx/c^2)\)，\(\gamma=1/\sqrt{1-\beta^2}\)。
+18_relativity.md	§18-6 相对论性动量和动能	- 洛伦兹变换：\(x'=\gamma(x-vt)\)、\(t'=\gamma(t-vx/c^2)\)，\(\gamma=1/\sqrt{1-\beta^2}\)。
+19_quantum_physics.md	§19-1 黑体辐射 普朗克能量子假设	- 光电方程是能量守恒：\(h\nu=\phi+K_{max}\)。
+19_quantum_physics.md	§19-2 光电效应 光的波粒二象性	- 光电方程是能量守恒：\(h\nu=\phi+K_{max}\)。
+19_quantum_physics.md	§19-3 康普顿效应	- 康普顿散射用光子动量 \(p=h/\lambda\) 与能量守恒联立。
+A_constants_units.md	A-1 常用物理常数	- 对点电荷，球面对称使 \(\vec E\) 在球面上大小恒定、方向径向。
